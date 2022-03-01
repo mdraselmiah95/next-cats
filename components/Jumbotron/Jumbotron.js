@@ -1,6 +1,6 @@
 export default function Jumbotron() {
   return (
-    <div className="jumbotron jumbotron-fluid">
+    <div className="jumbotron jumbotron-fluid mt-5">
       <div className="container">
         <h1 className="display-4">Fluid jumbotron</h1>
         <p className="lead">
