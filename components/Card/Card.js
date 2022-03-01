@@ -1,9 +1,10 @@
+import { useRouter } from "next/router";
 import styles from "./Card.module.css";
-
 export default function Card({ name, phone, email, image, id }) {
   const { url, alt } = image;
+  const router = useRouter();
   return (
-    <div className={styles.card}>
+    <div className={styles.card} onClick={() => router.push(`/cats/${id}`)}>
       <div className={styles["card-header"]}>
         <img src={url} alt={alt} className={styles["card-img"]} />
         {/* <Image src={url} alt={alt} className={styles["card-img"]} /> */}
