@@ -19,7 +19,7 @@ export default function Cat() {
     <div>
       {cat && (
         <div className="container mt-5" style={{ display: "flex" }}>
-          <img src={cat.image.url} alt={cat.image.alt} className="w-50 h-50" />
+          <img src={cat.image.url} alt={cat.image.alt} className="w-50" />
           <div className="mx-5">
             <h1>{cat.name}</h1>
             <p>{cat.description}</p>

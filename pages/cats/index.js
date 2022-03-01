@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import Card from "../../components/Card/Card";
-import Nav from "../../components/Nav/Nav";
 
 export default function index() {
   const [cats, setCats] = useState([]);
@@ -17,7 +16,7 @@ export default function index() {
 
   return (
     <>
-      <Nav />
+      {/* <Nav /> */}
       <div className="container mt-5">
         <div
           style={{
