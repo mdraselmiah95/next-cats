@@ -7,7 +7,7 @@ export default function index() {
   const fetchCats = async () => {
     const res = await fetch("/api/cats");
     const data = await res.json();
-    console.log(data);
+    // console.log(data);
     setCats(data);
   };
 
