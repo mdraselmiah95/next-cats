@@ -1,3 +1,4 @@
 export default function handler(req, res) {
-  res.status(200).json({ Hello: "Dog" });
+  const { id } = req.query;
+  res.status(200).json({ Hello: id });
 }
