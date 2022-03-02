@@ -3,6 +3,7 @@ import Jumbotron from "../components/Jumbotron/Jumbotron";
 import DefaultLayout from "../layouts/Default";
 import styles from "../styles/Home.module.css";
 
+//create functional component write rfc
 export default function Home() {
   return (
     <div className={styles.container}>
