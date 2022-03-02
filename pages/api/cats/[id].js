@@ -4,3 +4,5 @@ export default function handler(req, res) {
   const cat = cats.find((cat) => cat.id === Number(id));
   res.status(200).json(cat);
 }
+
+//finding specific id
