@@ -1,5 +1,7 @@
 import { useRouter } from "next/router";
 import styles from "./Card.module.css";
+
+//functional component
 export default function Card({ name, phone, email, image, id }) {
   const { url, alt } = image;
   const router = useRouter();
