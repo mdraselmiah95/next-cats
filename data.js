@@ -1,3 +1,4 @@
+//Fake data
 export const cats = [
   {
     id: 1,
