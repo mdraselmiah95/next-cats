@@ -3,6 +3,7 @@ import { useRouter } from "next/router";
 export default function Jumbotron() {
   const router = useRouter();
   return (
+    //Jumbotron
     <div className="jumbotron jumbotron-fluid mt-5">
       <div className="container">
         <h1 className="display-4">Cat World</h1>
